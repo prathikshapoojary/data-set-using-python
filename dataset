@@ -1,0 +1,16 @@
+import random
+
+prodid = ['Poo1','Poo2','Poo3','Poo4','Poo5','Poo6','Poo7','Poo8','Poo9','Po10']
+prodname = ['ABC','DEF','GHI','JKL','MNO','PQR','STU','VWX','YZA','BCD']
+print("ProdID \t ProdNames \t UnitPrice \t Qty_Ordered")
+
+for i in prodid:
+    print(i, end =" ")
+    for j in prodname:
+        print("\t",j,end=" ")
+        unit = random.randint(50, 500)
+        print("\t \t",unit,end=" ")
+        qty = random.randint(1,100)
+        print("\t \t",qty)
+        break
+        
